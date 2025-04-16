@@ -32,7 +32,7 @@ int findMostExpensiveCar(const float* prices, int size) {
             maxgin = i;
         }
     }
-    return maxIndex;
+    return maxgin;
 }
 
 int main() {
@@ -49,11 +49,11 @@ int main() {
     
     
     
-    int maxIndex = findMostExpensiveCar(prices, size);
+    int maxgin = findMostExpensiveCar(prices, size);
     cout << "\n=== Ամենաթանկ մեքենան ===\n";
-    cout << "Ապրանքանիշը: " << brands[maxgin]
+    cout << "Ապրանքանիշը: " << brands[maxgin];
     cout << ", Տեսակը: " << models[maxgin];
     cout << ", Թվականը: " << years[maxgin];
-    cout << ", Արժեքը: " << prices[maxgin]; << "\n";
+    cout << ", Արժեքը: " << prices[maxgin] << "\n";
     return 0;
 }
