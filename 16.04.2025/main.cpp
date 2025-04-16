@@ -16,7 +16,7 @@ void inputCars(string* brands, string* models, int* years, float* prices, int si
 }
 
 void displayCars(const string* brands, const string* models, const int* years, const float* prices, int size) {
-    cout << "\n=== Ավտոմեքենաներ ===\n";
+    cout << "Ավտոմեքենաներ ";
     for (int i = 0; i < size; ++i) {
         cout << "Ապրանքանիշը: " << brands[i];
         cout << ", Տեսակը: " << models[i];
